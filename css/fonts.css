@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url("../fonts/CenturyGothic.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Code Light";
+    src: url("../fonts/CodeLight.otf");
+    font-weight: bold;
+    font-style: normal;
+}

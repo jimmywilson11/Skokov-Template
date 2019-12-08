@@ -1,0 +1,28 @@
+{
+  "name": "lesson-9",
+  "version": "1.0.0",
+  "description": "Home work",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-rename": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmywilson11/Lesson-9.git"
+  },
+  "author": "jimmywilson11",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmywilson11/Lesson-9/issues"
+  },
+  "homepage": "https://github.com/jimmywilson11/Lesson-9#readme"
+}

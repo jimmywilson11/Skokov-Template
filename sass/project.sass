@@ -1,0 +1,366 @@
+@import url(../css/fonts.css);
+@import variables.sass
+@import media
+
+body
+    font-family: $main-font
+.container
+    max-width: 1400px
+.main-menu
+    flex-grow: .4
+    justify-content: space-between
+    .nav-item
+        text-align: center
+        a
+            font-family: $menu-font
+            text-transform: uppercase
+            padding: 27px 6px
+            color: $black
+            &:hover 
+                color: $black
+                background-color: $yellow
+                text-decoration: none
+    .active-bg
+        background-color: $yellow
+#title
+    padding-top: 20px
+    padding-bottom: 20px
+    position: relative
+    background: url(../img/slider_bg.png)
+    margin-bottom: 50px
+    .title-head
+        display: inline-block
+        padding: 5px 75px 5px 5px
+        font-size: 35px
+        color: $yellow
+        background-color: $gray
+        text-transform: uppercase
+        h2
+            margin-bottom: 0px
+.carousel
+    margin-bottom: 25px
+    ul
+        position: relative
+        margin: 0
+    .panel-fullscreen 
+        position: absolute
+        display: inline-block
+        z-index: 111 
+        color: $white
+        width: 5%
+        height: 5%    
+        top: 3%
+        right: 0
+        left: 97%
+        bottom: 0
+        overflow: auto
+        .fa-expand
+            color: $white
+    .carousel-control-prev, .carousel-control-next
+        width: 2%
+        height: 15%
+        top: 50%
+        background-color: $black
+.carousel-item
+    padding: 8px
+    background-color: $light-gray  
+.indicators
+    background-color: $black
+    padding: 10px
+    justify-content: space-around
+    flex-wrap: wrap
+.block-head
+    display: inline-block
+    margin-bottom: 15px
+    padding: 3px 20px
+    font-size: 18px
+    text-transform: uppercase
+    color: $yellow
+    background-color: $light-gray
+article
+    position: relative
+    margin: 0px 0 60px 0
+    &::after
+        content: ''
+        display: block
+        position: absolute
+        margin-top: 30px
+        width: 100%
+        height: 2px
+        color: $line
+        background-color: $line    
+    p
+        margin: 0
+        font-size: 15px   
+.modal-body
+    padding: 0
+    h3
+        margin: 0
+        color: $yellow        
+        background-color: $light-gray
+        text-align: center
+    .author
+        margin-top: 7px
+        font-size: 18px
+        margin-right: 15px
+        color: $dark-blue
+.overlay
+    display: none
+    position: absolute
+    z-index: 9
+    background-color: $light-gray
+    width: 30%
+    height: 35%
+    top: 35%
+    left: 35%
+    opacity: .7
+    i
+        position: absolute
+        color: $white
+        top: 30%
+        left: 35%
+a  
+    &:hover> .overlay
+        display: block
+.recent-projects
+    padding-bottom: 100px
+.list
+    background-color: $light-gray
+    padding-left: 27px
+    h2
+        color: $yellow
+        text-transform: uppercase
+        font-size: 20px
+        padding: 27px
+        margin: 0
+    ul
+        padding-left: 20px
+        padding-bottom: 25px
+    .item
+        padding: 3px
+        .fa-chevron-right
+            width: 30px
+            height: 30px
+            color: $black
+            text-align: center
+            padding-top: 5px
+            background-color: $yellow
+            margin-right: 5px
+        a
+            text-decoration: none
+            text-transform: uppercase
+            color: $white
+            &:hover
+                transition: .6s all ease-in
+                color: $yellow
+                .fa-chevron-right
+                    transition: .6s all ease-in
+                    color: $white
+                    background-color: $black
+            
+.nitem
+    padding: 5px 0
+    .nitem-description
+        margin-left: 9px    
+    a
+        text-decoration: none
+        font-size: 12px
+        color: $yellow      
+    h3
+        text-transform: uppercase
+        font-size: 16px
+        line-height: 20px
+        color: $white
+        margin: 0       
+    img
+        display: inline
+        width: 100px
+        height: 70px
+        object-fit: cover
+
+.tags
+    margin-bottom: 26px
+    margin: 0
+    .item
+        display: inline-block
+        margin: 2px       
+        a
+            background-color: $yellow
+            text-decoration: none
+            text-transform: uppercase  
+            color: $light-gray
+            font-size: 16px
+            padding: 5px 10px
+            outline: none
+            &:hover
+                background-color: $black 
+                color: $white
+                
+.big-inf
+    padding-top: 30px
+    background-color: $light-gray
+    display: flex
+    .container
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    .col
+        padding-right: 0px
+        padding-left: 0px
+        color: $white       
+        h2
+            font-size: 18px
+        p           
+            font-size: 13px
+        a
+            color: $white                 
+        .btn-learn
+            display: block
+            margin: 0 auto
+            background-color: $black
+            width: 122px
+            text-decoration: none
+            text-align: center
+            padding: 10px
+            margin-bottom: 15px
+            border-bottom: 2px solid transparent
+            outline: none
+            &:hover
+                border-bottom: 2px solid $yellow
+                outline: none                   
+        .gallery
+            display: flex
+            flex-wrap: wrap        
+            img
+                max-width: 140px
+                max-height: 67px
+                margin: 2px
+                object-fit: cover        
+        .tweets
+            li
+                line-height: 15px
+                margin-bottom: 5px
+                padding-left: 35px
+                &::before
+                    content: ''
+                    display: block
+                    position: absolute
+                    height: 30px 
+                    width: 30px
+                    fill: $white 
+                    background-image: url('../src/twitter-brands.svg')
+                    background-size: contain
+                    background-repeat: no-repeat
+                    left: 0                    
+            span
+                color: $yellow
+            .time
+                color: $yellow
+                font-size: 8px
+            p
+                margin-bottom: 0px
+            a
+                font-size: 13px
+        .social
+            display: flex
+            justify-content: space-between
+            h3
+                margin-top: 5px
+                font-size: 16px
+                color: $white          
+        .social-networks
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            width: 65%
+            li
+                width: 30px
+                height: 30px
+                background-color: $black
+            i
+                padding: 7px
+            .fa-facebook-f:hover
+                color: $light-blue
+            .fa-google-plus-g:hover
+                color: $dark-red
+            .fa-tumblr:hover
+                color: $dark-blue
+            .fa-linkedin-in:hover
+                color: $black
+                background-color: $white
+            .fa-youtube-square:hover
+                color: $red
+            .fa-blogger-b:hover
+                color: $orange
+            .fa-rss:hover
+                color: $black
+                background-color: $white
+            .fa-dribbble:hover
+                color: $pink        
+        address
+            padding-top: 5px
+            font-style: normal
+            padding-bottom: 5px
+            li
+                padding-bottom: 4px
+                i
+                    padding: 6px
+                    width: 28px
+                    height: 28px
+                    background-color: $black
+                    color: $white
+                a
+                    font-size: 16px
+                    text-decoration: none
+                    color: $white
+                    &:hover
+                        color: $yellow
+                p
+                    display: inline
+                    font-size: 13px
+                span
+                    font-size: 13
+                    color: $white
+        .email           
+            border: none
+            background-color: $gray
+            border-bottom: 2px solid $yellow
+        .formEmailButton
+            width: 35px
+            height: 35px
+            background-color: $black
+            color: $white
+            font-size: 25px
+            text-align: center
+            border-style: none
+            &:hover
+                color: $yellow    
+.black
+    background-color: $black
+    padding-top: 30px
+    padding-bottom: 20px
+    .container
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        p
+        font-size: 14px
+        color: $white
+    .copyright
+        text-align: center
+        padding-bottom: 10px
+    .footer-menu-box
+        width: 50%
+    .footer-menu
+        display: flex
+        justify-content: space-between      
+        a
+            color: $white
+            font-family: $menu-font
+            text-decoration: none
+            text-transform: uppercase
+            padding: 20px 6px
+            &:hover
+                color: $black
+                background-color: $yellow
+                text-decoration: none
