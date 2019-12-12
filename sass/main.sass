@@ -1,12 +1,14 @@
 @import url(../css/fonts.css)
 @import variables.sass
+@import footer.sass
+@import media.sass
 
 body
     font-family: $main-font
 .container
     max-width: 1400px
 .main-menu
-    flex-grow: .4
+    flex-grow: .2
     justify-content: space-between
     .nav-item
         text-align: center
@@ -25,12 +27,28 @@ body
     padding-top: 20px
     position: relative
     background: url(../img/slider_bg.png)
-    &:nth-last-child(2)
-        margin-bottom: 10px
-
+.description 
+    margin-top: 60px
+    .description-heading
+        display: inline-block
+        text-transform: uppercase
+        font-size: 70px
+        background-color: $yellow
+        padding: 5px 10px
+        &:nth-last-child(2)
+        margin-bottom: 5px
+    .description-text
+        display: inline-block
+        background-color: $light-gray
+        color: $white
+        padding: 3px 5px
+        font-size: 24px
+        &:nth-last-child(2)
+        margin-bottom: 2px
     .btn-order
         display: block
         padding: 5px 40px
+        margin-bottom: 25px
         text-decoration: none
         text-align: center
         font: 24px $main-font
@@ -53,10 +71,12 @@ body
         opacity: 0.8
 .faces
     position: relative
-    margin: 40px auto
+    padding-bottom: 35px     
     img
+        margin: 20px auto
         margin: 0 auto
-.indicators  
+.indicators
+    margin-top: 25px  
     li
         width: 10px
         height: 10px
@@ -134,7 +154,7 @@ body
 .head-block
     position: relative
     margin: 0 auto
-    max-width: 165px
+    max-width: 140px
     background-color: $light-gray
     h2
         font-size: 18px
@@ -142,6 +162,29 @@ body
         text-align: center
         text-transform: uppercase
         padding: 5px  15px
+        &::after
+            content: ''
+            display: block
+            position: absolute
+            top: 50%
+            left: 110%
+            width: 50%
+            height: 2px
+            color: $line
+            background-color: $line
+            z-index: 1
+        &::before
+            content: ''
+            display: block
+            position: absolute
+            top: 50%
+            right: 110%
+            width: 50%
+            height: 2px
+            color: $line
+            background-color: $line
+            z-index: 1
+            
 #our-works
     padding-bottom: 90px
     p
@@ -150,263 +193,10 @@ body
 .item 
     padding: 0
     margin: 3px
-    max-width: 32%
+    max-width: 35%
     img
         max-width: 100%
 #clients
     p
         margin-top: 34px
-        text-align: center
-
-.big-inf
-    padding-top: 30px
-    background-color: $light-gray
-    display: flex
-    .container
-        display: flex
-        flex-wrap: wrap
-        justify-content: space-between
-    .col
-        padding-right: 0px
-        padding-left: 0px
-        color: $white       
-        h2
-            font-size: 18px
-        p           
-            font-size: 13px
-        a
-            color: $white                 
-        .btn-learn
-            display: block
-            margin: 0 auto
-            background-color: $black
-            width: 122px
-            text-decoration: none
-            text-align: center
-            padding: 10px
-            margin-bottom: 15px
-            border-bottom: 2px solid transparent
-            outline: none
-            &:hover
-                border-bottom: 2px solid $yellow
-                outline: none                   
-        .gallery
-            display: flex
-            flex-wrap: wrap        
-            img
-                max-width: 140px
-                max-height: 67px
-                margin: 2px
-                object-fit: cover        
-        .tweets
-            li
-                line-height: 15px
-                margin-bottom: 5px
-                padding-left: 35px
-                &::before
-                    content: ''
-                    display: block
-                    position: absolute
-                    height: 30px 
-                    width: 30px
-                    fill: $white 
-                    background-image: url('../src/twitter-brands.svg')
-                    background-size: contain
-                    background-repeat: no-repeat
-                    left: 0                    
-            span
-                color: $yellow
-            .time
-                color: $yellow
-                font-size: 8px
-            p
-                margin-bottom: 0px
-            a
-                font-size: 13px
-        .social
-            display: flex
-            justify-content: space-between
-            h3
-                margin-top: 5px
-                font-size: 16px
-                color: $white          
-        .social-networks
-            display: flex
-            flex-direction: row
-            justify-content: space-around
-            width: 65%
-            li
-                width: 30px
-                height: 30px
-                background-color: $black
-            i
-                padding: 7px
-            .fa-facebook-f:hover
-                color: $light-blue
-            .fa-google-plus-g:hover
-                color: $dark-red
-            .fa-tumblr:hover
-                color: $dark-blue
-            .fa-linkedin-in:hover
-                color: $black
-                background-color: $white
-            .fa-youtube-square:hover
-                color: $red
-            .fa-blogger-b:hover
-                color: $orange
-            .fa-rss:hover
-                color: $black
-                background-color: $white
-            .fa-dribbble:hover
-                color: $pink        
-        address
-            padding-top: 5px
-            font-style: normal
-            padding-bottom: 5px
-            li
-                padding-bottom: 4px
-                i
-                    padding: 6px
-                    width: 28px
-                    height: 28px
-                    background-color: $black
-                    color: $white
-                a
-                    font-size: 16px
-                    text-decoration: none
-                    color: $white
-                    &:hover
-                        color: $yellow
-                p
-                    display: inline
-                    font-size: 13px
-                span
-                    font-size: 13
-                    color: $white
-        .email           
-            border: none
-            background-color: $gray
-            border-bottom: 2px solid $yellow
-        .formEmailButton
-            width: 35px
-            height: 35px
-            background-color: $black
-            color: $white
-            font-size: 25px
-            text-align: center
-            border-style: none
-            &:hover
-                color: $yellow    
-.black
-    background-color: $black
-    padding-top: 30px
-    padding-bottom: 20px
-    .container
-        display: flex
-        justify-content: space-between
-        flex-wrap: wrap
-        p
-        font-size: 14px
-        color: $white
-    .copyright
-        text-align: center
-        padding-bottom: 10px
-    .footer-menu-box
-        width: 50%
-    .footer-menu
-        display: flex
-        justify-content: space-between      
-        a
-            color: $white
-            font-family: $menu-font
-            text-decoration: none
-            text-transform: uppercase
-            padding: 20px 6px
-            &:hover
-                color: $black
-                background-color: $yellow
-                text-decoration: none            
-@media screen and ( max-width: 420px )
-    .description
-        h2
-            margin: 0 auto
-            font-size: 40px
-            padding-bottom: 5px
-        p
-            text-align: center
-            font-size: 16px
-            padding: 5px
-    .faces
-        img
-            width: 90%
-    .container
-        h2
-            text-align: center
-    .gallery
-        justify-content: center
-    .social
-        flex-direction: column
-        h3
-            text-align: center
-    .social-networks
-        width: 100%
-    .follow-us
-        margin-bottom: 15px
-    .footer-menu
-        width: 80%
-        flex-wrap: wrap    
-@media screen and ( max-width: 576px ) 
-    .description
-        h2
-            margin: 0 auto
-            font-size: 50px
-            padding-bottom: 5px
-        p
-            text-align: center
-            font-size: 20px
-            padding: 5px
-    .faces
-        img
-            width: 90%  
-    .social
-        flex-direction: column
-        h3
-            text-align: center
-    .social-networks
-        width: 100%
-        margin-left: 80px
-        margin-top: 10px
-    .follow-us
-        margin-bottom: 15px
-    .black
-        .container
-            justify-content: center
-@media screen and ( max-width: 768px )
-    .social
-        flex-direction: column
-        span
-            text-align: center
-    .social-networks
-        width: 100%
-        margin-left: 80px
-        margin-top: 10px
-    .follow-us
-        margin: 0 auto
-    .black
-        .container
-            justify-content: center
-@media screen and ( max-width: 992px )
-    .faces
-        img
-            width: 80%
-            margin: 0 auto
-    .social   
-        flex-direction: column 
-    .social-networks
-        width: 100%
-        margin-top: 10px
-    .email
-        margin-top: 3px
-    .black
-        .container
-            flex-wrap: wrap                    
+        text-align: center                        
