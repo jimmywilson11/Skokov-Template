@@ -10,7 +10,7 @@ a
 .container
     max-width: 1400px
 .main-menu
-    flex-grow: .4
+    flex-grow: .2
     justify-content: space-between
     .nav-item
         color: $black
@@ -57,13 +57,16 @@ a
 .active-bg       
     background-color: $yellow
 .modal-body
-    h2
+    padding: 0
+    margin: 0
+    h3        
+        padding: 0
+        margin: 0
         color: $yellow        
         background-color: $light-gray
     .author
-        margin-top: 7px
-        font-size: 18px
-        margin-right: 15px
+        margin: 0 15px 0
+        font-size: 18px 
         color: $dark-blue
 
 .overlay
@@ -77,9 +80,10 @@ a
     left: 35%
     opacity: .7
     i
+        position: absolute
+        right: 30%
+        top: 25%
         color: $white
-        top: 50%
-        transform: translate(0, 55%)
 a  
     &:hover> .overlay
         display: block               
@@ -87,10 +91,6 @@ a
     .menu-navigation
         flex-direction: column
         justify-content: center
-    .overlay
-        i
-            top: 50%
-            transform: translate(0, 25%)
     .gallery
         justify-content: center
 @media screen and ( max-width: 576px )
@@ -106,17 +106,11 @@ a
         font-size: 24px
         h2    
             font-size: 35px
-    .overlay
-        i
-            top: 50%
-            transform: translate(0, 20%)    
+  
 @media screen and ( max-width: 992px )
     #portfolio-gallery
         font-size: 24px
         h2    
             font-size: 35px
-    .overlay
-        i
-            top: 50%
-            transform: translate(0, 10%)
+
 
