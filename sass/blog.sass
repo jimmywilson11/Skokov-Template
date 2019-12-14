@@ -91,16 +91,23 @@ body
         font-size: 18px
         margin-right: 15px
         a
-            font: $main-font 
+            font: 18px $main-font
+            padding: 5px
             color: $yellow
             text-decoration: none
+            &:hover
+                color: $black
+                border-radius: 18px
+                background-color: $yellow 
+                transition: .6s all ease
         p
             margin-bottom: 0
 
 .like
     width: 60px
     height: 3%
-    text-align: center 
+    text-align: center
+    font: 12px $main-font
     &:hover
         text-decoration: none
         color: $yellow
@@ -111,7 +118,7 @@ body
     padding: 0    
     li
         a
-            font: 12px $main-font bold
+            font: 12px $main-font 
             padding: 2px 5px
             height: 3%
             &:hover
@@ -120,21 +127,34 @@ body
                 background-color: $light-gray
                 border-radius: 18px
                 transition: .4s all ease-in-out
-            
-        
-
+.pagination
+    margin: 30px 0
+    a
+        text-transform: uppercase
+        text-decoration: none
+        font: 20px $main-font   
+        padding: 7px 10px
+        &:hover
+            background-color: $yellow
+            color: $black
 .search
     background-color: $light-gray
     margin-bottom: 15px
     padding: 23px 50px
     .search-field
-        width: 95%
+        width: 85%
         position: relative
         background-color: $dark-white
         border-style: none
         font-size: 18px
         padding-left: 15px
         border-radius: 15px
+    .search-btn
+        position: absolute
+        background-color: transparent
+        border-style: none
+        color: $gray
+        left: 65% 
 
 .list
     background-color: $light-gray
@@ -168,20 +188,20 @@ body
                     transition: .6s all ease-in
                     color: $white
                     background-color: $black
-.categories, .archive
-    flex-wrap: wrap
 .nitem
     padding: 5px 10px 0 0
+    display: block
     .nitem-description
-        margin-left: 9px    
+        margin-left: 9px
+        font: 12px $main-font    
     a
         text-decoration: none
+        display: inline-block
         h3
             text-transform: uppercase
             font-size: 16px
             line-height: 20px
             color: $white
-            margin: 0 0 25px 0
         time
             color: $yellow
         span
