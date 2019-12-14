@@ -686,3 +686,35 @@ body {
   margin-top: 34px;
   text-align: center;
 }
+
+.owl-prew {
+  position: absolute;
+  background-color: #000;
+  width: 1%;
+  height: 8%;
+  opacity: 1;
+  left: 0;
+  margin-top: -85px;
+}
+
+.owl-prew span {
+  margin-top: 160%;
+  margin-left: 35%;
+  color: #FFF;
+}
+
+.owl-next {
+  position: absolute;
+  background-color: #000;
+  width: 1%;
+  height: 8%;
+  opacity: 1;
+  right: 0;
+  margin-top: -85px;
+}
+
+.owl-next span {
+  margin-top: 160%;
+  margin-left: 35%;
+  color: #FFF;
+}

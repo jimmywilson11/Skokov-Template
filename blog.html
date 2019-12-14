@@ -39,10 +39,10 @@
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item active-bg">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
+                            <a class="nav-link" href="about.html">About us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -68,8 +68,8 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="quote">
-                                <p>"Ability may get you to the top, but it takes character to keep you there."</p>
-                                <span>John Wooden</span>
+                                <h3>"Ability may get you to the top, but it takes character to keep you there."</h3>
+                                <p class="text-right mr-1">John Wooden</p>
                             </div>
                             <div class="news-item">
                                 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -77,10 +77,14 @@
                                         <div class="modal-content">
                                             <div class="modal-body mb-0 p-0">
                                                 <h2>Five Finger Death Punch Releases Lyric Video for "Inside Out"</h2>
-                                                <img class="img-fluid" src="./img/news-1-big.jpg" alt="News Post Pic">
+                                                <picture>
+                                                    <source srcset="./webp/news-1-big.webp" type="image/webp"></source>
+                                                    <img class="img-fluid" src="./img/news-1-big.jpg" alt="News Post Pic">
+                                                </picture>
                                                 <div class="caption d-flex justify-content-between">
-                                                    <a href="#">4 comments Oct. 12, 2013</a>
-                                                    <p>by John Doe</p>
+                                                    <a href="#">0 comments</a>
+                                                    <a href="#"><time datetime="2019-12-09">Dec. 09, 2019</time></a>
+                                                    <p>by Muharrem Doğan</p>
                                                 </div>
                                             </div>
                                             <div class="modal-footer justify-content-center">
@@ -97,8 +101,10 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <img class="card-img-top" src="./img/news-1-big.jpg" alt="News Post Pic" data-toggle="modal"
-                                            data-target="#modal1">
+                                        <picture data-toggle="modal" data-target="#modal1">
+                                            <source srcset="./webp/news-1-big.webp" type="image/webp"></source>
+                                            <img class="card-img-top" src="./img/news-1-big.jpg" alt="News Post Pic">
+                                        </picture>
                                     </div>
                                     <div class="card-footer">
                                         <h3 class="card-title">Five Finger Death Punch Releases Lyric Video for ‘Inside
@@ -107,11 +113,11 @@
                                             video for ‘Inside Out’ from the new album ‘F8’, which will release on
                                             February 28, 2020, via Better Noise Music.</p>
                                         <div class="comments d-flex justify-content-between">
-                                            <ul class="news-info text-right">
-                                                <li><a href="#" class="like"><i class="far fa-heart"></i> 15</a></li>
-                                                <li><a href="#">by John Doe</a> / </li>
-                                                <li><a href="#"> 4 comments</a> / </li>
-                                                <li><a href="#"> Oct. 12, 2013</a></li>
+                                            <a href="#" class="d-block ml-3 mt-1 like"><i class="far fa-heart"></i> 0</a>
+                                            <ul class="news-info d-flex mr-2">
+                                                <li><a href="#" class="pr-1">by Muharrem Doğan</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1 pr-1">0 comments</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1">Dec. 09, 2019</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -122,10 +128,14 @@
                                     <div class="modal-dialog modal-lg modal-md modal-sm" role="document">
                                         <div class="modal-content">
                                             <div class="modal-body mb-0 p-0">
-                                                <h2>Five Finger Death Punch Releases Lyric Video for "Inside Out"</h2>
-                                                <img class="img-fluid" src="./img/news-1-big.jpg" alt="News Post Pic">
+                                                <h2>17 Inspiring Examples of Parallax  Scrolling Sites</h2>
+                                                <picture>
+                                                    <source srcset="./webp/news-2-big.webp" type="image/webp"></source>
+                                                    <img class="img-fluid" src="./img/news-2-big.jpg" alt="News Post Pic">
+                                                </picture>
                                                 <div class="caption d-flex justify-content-between">
-                                                    <a href="#">4 comments Oct. 12, 2013</a>
+                                                    <a href="#">4 comments</a>
+                                                    <a href="#"><time datetime="2013-10-12">Oct. 12, 2013</time></a>
                                                     <p>by John Doe</p>
                                                 </div>
                                             </div>
@@ -133,7 +143,7 @@
                                                 <button type="button"
                                                     class="btn btn-outline-primary btn-rounded btn-md ml-4"
                                                     data-dismiss="modal"
-                                                    onclick="location.href='https://www.metalcastle.net/five-finger-death-punch-releases-lyric-video-for-inside-out'">Open</button>
+                                                    onclick="location.href='#'">Open</button>
                                                 <button type="button"
                                                     class="btn btn-outline-primary btn-rounded btn-md ml-4"
                                                     data-dismiss="modal">Close</button>
@@ -143,22 +153,22 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <img class="card-img-top" src="./img/news-1-big.jpg" alt="News Post Pic" data-toggle="modal"
-                                            data-target="#modal2">
+                                        <picture data-toggle="modal" data-target="#modal2">
+                                            <source srcset="./webp/news-2-big.webp" type="image/webp"></source>
+                                            <img class="card-img-top" src="./img/news-2-big.jpg" alt="News Post Pic">
+                                        </picture>
                                     </div>
                                     <div class="card-footer">
-                                        <h3 class="card-title">Five Finger Death Punch Releases Lyric Video for
-                                            ‘Inside Out’</h3>
-                                        <p>Heavy metal legends Five Finger Death Punch have released new official
-                                            lyric video for ‘Inside Out’ from the new album ‘F8’, which will release
-                                            on February 28, 2020, via Better Noise Music.</p>
+                                        <h3 class="card-title">17 Inspiring Examples of Parallax  Scrolling Sites</h3>
+                                        <p>When it comes to parallax scrolling, the line that separates good and 
+                                            bad choices is pretty thin. A while back parallax was being used to 
+                                            deliver an explosion of elements floating around the screen.</p>
                                         <div class="comments d-flex justify-content-between">
-                                            <ul class="news-info text-right">
-                                                <li><a href="#" class="like"><i class="far fa-heart"></i> 15</a>
-                                                </li>
-                                                <li><a href="#">by John Doe</a> / </li>
-                                                <li><a href="#"> 4 comments</a> / </li>
-                                                <li><a href="#"> Oct. 12, 2013</a></li>
+                                            <a href="#" class="d-block ml-3 mt-1 like"><i class="far fa-heart"></i> 15</a>
+                                            <ul class="news-info d-flex mr-2">
+                                                <li><a href="#" class="pr-1">by John Doe</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1 pr-1">4 comments</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1">Oct. 12, 2013</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -169,10 +179,14 @@
                                     <div class="modal-dialog modal-lg modal-md modal-sm" role="document">
                                         <div class="modal-content">
                                             <div class="modal-body mb-0 p-0">
-                                                <h2>Five Finger Death Punch Releases Lyric Video for "Inside Out"</h2>
-                                                <img class="img-fluid" src="./img/news-1-big.jpg" alt="News Post Pic">
+                                                <h2>20 Resources for Beginner Designers & Developers</h2>
+                                                <picture>
+                                                    <source srcset="./webp/news-3-big.webp" type="image/webp"></source>
+                                                    <img class="img-fluid" src="./img/news-3-big.jpg" alt="News Post Pic">
+                                                </picture>
                                                 <div class="caption d-flex justify-content-between">
-                                                    <a href="#">4 comments Oct. 12, 2013</a>
+                                                    <a href="#">8 comments</a>
+                                                    <a href="#"><time datetime="2013-10-10">Oct. 10, 2013</time></a>
                                                     <p>by John Doe</p>
                                                 </div>
                                             </div>
@@ -180,7 +194,7 @@
                                                 <button type="button"
                                                     class="btn btn-outline-primary btn-rounded btn-md ml-4"
                                                     data-dismiss="modal"
-                                                    onclick="location.href='https://www.metalcastle.net/five-finger-death-punch-releases-lyric-video-for-inside-out'">Open</button>
+                                                    onclick="location.href='#'">Open</button>
                                                 <button type="button"
                                                     class="btn btn-outline-primary btn-rounded btn-md ml-4"
                                                     data-dismiss="modal">Close</button>
@@ -190,22 +204,73 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <img class="card-img-top" src="./img/news-1-big.jpg" alt="News Post Pic" data-toggle="modal"
-                                            data-target="#modal3">
+                                        <picture data-toggle="modal" data-target="#modal3">
+                                            <source srcset="./webp/news-3-big.webp" type="image/webp"></source>
+                                            <img class="card-img-top" src="./img/news-3-big.jpg" alt="News Post Pic">
+                                        </picture>
                                     </div>
                                     <div class="card-footer">
-                                        <h3 class="card-title">Five Finger Death Punch Releases Lyric Video for
-                                            ‘Inside Out’</h3>
-                                        <p>Heavy metal legends Five Finger Death Punch have released new official
-                                            lyric video for ‘Inside Out’ from the new album ‘F8’, which will release
-                                            on February 28, 2020, via Better Noise Music.</p>
+                                        <h3 class="card-title">20 Resources for Beginner Designers & Developers</h3>
+                                        <p>Getting started in the world of design can be both thrilling and 
+                                            intimidating. Sometimes, you feel like you just don’t have the tools 
+                                            or skills you need to complete even the most basic projects.</p>
                                         <div class="comments d-flex justify-content-between">
-                                            <ul class="news-info text-right">
-                                                <li><a href="#" class="like"><i class="far fa-heart"></i> 15</a>
-                                                </li>
-                                                <li><a href="#">by John Doe</a> / </li>
-                                                <li><a href="#"> 4 comments</a> / </li>
-                                                <li><a href="#"> Oct. 12, 2013</a></li>
+                                            <a href="#" class="d-block ml-3 mt-1 like"><i class="far fa-heart"></i> 7</a>
+                                            <ul class="news-info d-flex mr-2">
+                                                <li><a href="#" class="pr-1">by John Doe</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1 pr-1">8 comments</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1">Oct. 10, 2013</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-md modal-sm" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-body mb-0 p-0">
+                                                <h2>18 Minimalistic Home Offices to Inspire You</h2>
+                                                <picture>
+                                                    <source srcset="./webp/news-4-big.webp" type="image/webp"></source>
+                                                    <img class="img-fluid" src="./img/news-4-big.jpg" alt="News Post Pic">
+                                                </picture>
+                                                <div class="caption d-flex justify-content-between">
+                                                    <a href="#">0 comments</a>
+                                                    <a href="#"><time datetime="2013-10-08">Oct. 08, 2013</time></a>
+                                                    <p>by John Doe</p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button"
+                                                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                                    data-dismiss="modal"
+                                                    onclick="location.href='#'">Open</button>
+                                                <button type="button"
+                                                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <picture data-toggle="modal" data-target="#modal4">
+                                            <source srcset="./webp/news-4-big.webp" type="image/webp"></source>
+                                            <img class="card-img-top" src="./img/news-4-big.jpg" alt="News Post Pic">
+                                        </picture>
+                                    </div>
+                                    <div class="card-footer">
+                                        <h3 class="card-title">18 Minimalistic Home Offices to Inspire You</h3>
+                                        <p>It doesn’t matter if you work from home or if you use your own space 
+                                            only at night or on the weekends, home offices are great! They give 
+                                            us a chance to create a space just the way we want it.</p>
+                                        <div class="comments d-flex justify-content-between">
+                                            <a href="#" class="d-block ml-3 mt-1 like"><i class="far fa-heart"></i> 2</a>
+                                            <ul class="news-info d-flex mr-2">
+                                                <li><a href="#" class="pr-1">by John Doe</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1 pr-1">0 comments</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1">Oct. 08, 2013</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -214,61 +279,18 @@
                         </div>
                         <div class="col-md-6">
                             <div class="news-item">
-                                <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg modal-md modal-sm" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-body mb-0 p-0">
-                                                <h2>Five Finger Death Punch Releases Lyric Video for "Inside Out"</h2>
-                                                <img class="img-fluid" src="./img/news-1-big.jpg" alt="News Post Pic">
-                                                <div class="caption d-flex justify-content-between">
-                                                    <a href="#">4 comments Oct. 12, 2013</a>
-                                                    <p>by John Doe</p>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer justify-content-center">
-                                                <button type="button"
-                                                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                                    data-dismiss="modal"
-                                                    onclick="location.href='https://www.metalcastle.net/five-finger-death-punch-releases-lyric-video-for-inside-out'">Open</button>
-                                                <button type="button"
-                                                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                                    data-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <img class="card-img-top" src="./img/news-1-big.jpg" alt="News Post Pic" data-toggle="modal"
-                                            data-target="#modal4">
-                                    </div>
-                                    <div class="card-footer">
-                                        <h3 class="card-title">Five Finger Death Punch Releases Lyric Video for
-                                            ‘Inside Out’</h3>
-                                        <p>Heavy metal legends Five Finger Death Punch have released new official
-                                            lyric video for ‘Inside Out’ from the new album ‘F8’, which will release
-                                            on February 28, 2020, via Better Noise Music.</p>
-                                        <div class="comments d-flex justify-content-between">
-                                            <ul class="news-info text-right">
-                                                <li><a href="#" class="like"><i class="far fa-heart"></i> 15</a>
-                                                </li>
-                                                <li><a href="#">by John Doe</a> / </li>
-                                                <li><a href="#"> 4 comments</a> / </li>
-                                                <li><a href="#"> Oct. 12, 2013</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="news-item">
                                 <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-hidden="true">
                                     <div class="modal-dialog modal-lg modal-md modal-sm" role="document">
                                         <div class="modal-content">
                                             <div class="modal-body mb-0 p-0">
-                                                <h2>Five Finger Death Punch Releases Lyric Video for "Inside Out"</h2>
-                                                <img class="img-fluid" src="./img/news-1-big.jpg" alt="News Post Pic">
+                                                <h2>Multipurpose Agency WordPress Theme</h2>
+                                                <picture>
+                                                    <source srcset="./webp/news-5-big.webp" type="image/webp"></source>
+                                                    <img class="img-fluid" src="./img/news-5-big.jpg" alt="News Post Pic">
+                                                </picture>
                                                 <div class="caption d-flex justify-content-between">
-                                                    <a href="#">4 comments Oct. 12, 2013</a>
+                                                    <a href="#">1 comments</a>
+                                                    <a href="#"><time datetime="2013-10-12">Oct. 12, 2013</time></a>
                                                     <p>by John Doe</p>
                                                 </div>
                                             </div>
@@ -276,7 +298,7 @@
                                                 <button type="button"
                                                     class="btn btn-outline-primary btn-rounded btn-md ml-4"
                                                     data-dismiss="modal"
-                                                    onclick="location.href='https://www.metalcastle.net/five-finger-death-punch-releases-lyric-video-for-inside-out'">Open</button>
+                                                    onclick="location.href='#'">Open</button>
                                                 <button type="button"
                                                     class="btn btn-outline-primary btn-rounded btn-md ml-4"
                                                     data-dismiss="modal">Close</button>
@@ -286,22 +308,22 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <img class="card-img-top" src="./img/news-1-big.jpg" alt="News Post Pic" data-toggle="modal"
-                                            data-target="#modal5">
+                                        <picture data-toggle="modal" data-target="#modal5">
+                                            <source srcset="./webp/news-5-big.webp" type="image/webp"></source>
+                                            <img class="card-img-top" src="./img/news-5-big.jpg" alt="News Post Pic">
+                                        </picture>
                                     </div>
                                     <div class="card-footer">
-                                        <h3 class="card-title">Five Finger Death Punch Releases Lyric Video for
-                                            ‘Inside Out’</h3>
-                                        <p>Heavy metal legends Five Finger Death Punch have released new official
-                                            lyric video for ‘Inside Out’ from the new album ‘F8’, which will release
-                                            on February 28, 2020, via Better Noise Music.</p>
+                                        <h3 class="card-title">Multipurpose Agency WordPress Theme</h3>
+                                        <p>At ThemeTrust, our premium WordPress theme shop, we just released 
+                                            our latest WordPress theme. Baylie is a multipurpose agency theme 
+                                            featuring a full screen parallax slideshow.</p>
                                         <div class="comments d-flex justify-content-between">
-                                            <ul class="news-info text-right">
-                                                <li><a href="#" class="like"><i class="far fa-heart"></i> 15</a>
-                                                </li>
-                                                <li><a href="#">by John Doe</a> / </li>
-                                                <li><a href="#"> 4 comments</a> / </li>
-                                                <li><a href="#"> Oct. 12, 2013</a></li>
+                                            <a href="#" class="d-block ml-3 mt-1 like"><i class="far fa-heart"></i> 0</a>
+                                            <ul class="news-info d-flex mr-2">
+                                                <li><a href="#" class="pr-1">by John Doe</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1 pr-1">1 comments</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1">Oct. 12, 2013</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -312,10 +334,14 @@
                                     <div class="modal-dialog modal-lg modal-md modal-sm" role="document">
                                         <div class="modal-content">
                                             <div class="modal-body mb-0 p-0">
-                                                <h2>Five Finger Death Punch Releases Lyric Video for "Inside Out"</h2>
-                                                <img class="img-fluid" src="./img/news-1-big.jpg" alt="News Post Pic">
+                                                <h2>Inspiring Examples of Color in  Web Design</h2>
+                                                <picture>
+                                                    <source srcset="./webp/news-6-big.webp" type="image/webp"></source>
+                                                    <img class="img-fluid" src="./img/news-6-big.jpg" alt="News Post Pic">
+                                                </picture>
                                                 <div class="caption d-flex justify-content-between">
-                                                    <a href="#">4 comments Oct. 12, 2013</a>
+                                                    <a href="#">1 comments</a>
+                                                    <a href="#"><time datetime="2013-10-10">Oct. 10, 2013</time></a>
                                                     <p>by John Doe</p>
                                                 </div>
                                             </div>
@@ -323,7 +349,7 @@
                                                 <button type="button"
                                                     class="btn btn-outline-primary btn-rounded btn-md ml-4"
                                                     data-dismiss="modal"
-                                                    onclick="location.href='https://www.metalcastle.net/five-finger-death-punch-releases-lyric-video-for-inside-out'">Open</button>
+                                                    onclick="location.href='#'">Open</button>
                                                 <button type="button"
                                                     class="btn btn-outline-primary btn-rounded btn-md ml-4"
                                                     data-dismiss="modal">Close</button>
@@ -333,22 +359,22 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <img class="card-img-top" src="./img/news-1-big.jpg" alt="News Post Pic" data-toggle="modal"
-                                            data-target="#modal6">
+                                        <picture data-toggle="modal" data-target="#modal6">
+                                            <source srcset="./webp/news-6-big.webp" type="image/webp"></source>
+                                            <img class="card-img-top" src="./img/news-6-big.jpg" alt="News Post Pic">
+                                        </picture>
                                     </div>
                                     <div class="card-footer">
-                                        <h3 class="card-title">Five Finger Death Punch Releases Lyric Video for
-                                            ‘Inside Out’</h3>
-                                        <p>Heavy metal legends Five Finger Death Punch have released new official
-                                            lyric video for ‘Inside Out’ from the new album ‘F8’, which will release
-                                            on February 28, 2020, via Better Noise Music.</p>
+                                        <h3 class="card-title">Inspiring Examples of Color in  Web Design</h3>
+                                        <p>At ThemeTrust, our premium WordPress theme shop, we just released 
+                                            our latest WordPress theme. Baylie is a multipurpose agency theme 
+                                            featuring a full screen parallax slideshow.</p>
                                         <div class="comments d-flex justify-content-between">
-                                            <ul class="news-info text-right">
-                                                <li><a href="#" class="like"><i class="far fa-heart"></i> 15</a>
-                                                </li>
-                                                <li><a href="#">by John Doe</a> / </li>
-                                                <li><a href="#"> 4 comments</a> / </li>
-                                                <li><a href="#"> Oct. 12, 2013</a></li>
+                                            <a href="#" class="d-block ml-3 mt-1 like"><i class="far fa-heart"></i> 0</a>
+                                            <ul class="news-info d-flex mr-2">
+                                                <li><a href="#" class="pr-1">by John Doe</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1 pr-1">1 comments</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1">Oct. 10, 2013</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -359,10 +385,14 @@
                                     <div class="modal-dialog modal-lg modal-md modal-sm" role="document">
                                         <div class="modal-content">
                                             <div class="modal-body mb-0 p-0">
-                                                <h2>Five Finger Death Punch Releases Lyric Video for "Inside Out"</h2>
-                                                <img class="img-fluid" src="./img/news-1-big.jpg" alt="News Post Pic">
+                                                <h2>15 Fresh Examples of Clean and  Minimal Web Designs</h2>
+                                                    <picture>
+                                                        <source srcset="./webp/news-7-big.webp" type="image/webp"></source>
+                                                        <img class="img-fluid" src="./img/news-7-big.jpg" alt="News Post Pic">
+                                                    </picture>
                                                 <div class="caption d-flex justify-content-between">
-                                                    <a href="#">4 comments Oct. 12, 2013</a>
+                                                    <a href="#">9 comments</a>
+                                                    <a href="#"><time datetime="2013-10-09">Oct. 09, 2013</time></a>
                                                     <p>by John Doe</p>
                                                 </div>
                                             </div>
@@ -380,22 +410,73 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <img class="card-img-top" src="./img/news-1-big.jpg" alt="News Post Pic" data-toggle="modal"
-                                            data-target="#modal7">
+                                        <picture data-toggle="modal" data-target="#modal7">
+                                            <source srcset="./webp/news-7-big.webp" type="image/webp"></source>
+                                            <img class="card-img-top" src="./img/news-7-big.jpg" alt="News Post Pic">
+                                        </picture>
                                     </div>
                                     <div class="card-footer">
-                                        <h3 class="card-title">Five Finger Death Punch Releases Lyric Video for
-                                            ‘Inside Out’</h3>
-                                        <p>Heavy metal legends Five Finger Death Punch have released new official
-                                            lyric video for ‘Inside Out’ from the new album ‘F8’, which will release
-                                            on February 28, 2020, via Better Noise Music.</p>
+                                        <h3 class="card-title">15 Fresh Examples of Clean and  Minimal Web Designs</h3>
+                                        <p>Last week we showcased 13 Beautiful Examples of Bold Colors 
+                                            in Web Design and we received several emails asking us to put 
+                                            together a list with specific colors.</p>
                                         <div class="comments d-flex justify-content-between">
-                                            <ul class="news-info text-right">
-                                                <li><a href="#" class="like"><i class="far fa-heart"></i> 15</a>
-                                                </li>
-                                                <li><a href="#">by John Doe</a> / </li>
-                                                <li><a href="#"> 4 comments</a> / </li>
-                                                <li><a href="#"> Oct. 12, 2013</a></li>
+                                            <a href="#" class="d-block ml-3 mt-1 like"><i class="far fa-heart"></i> 19</a>
+                                            <ul class="news-info d-flex mr-2">
+                                                <li><a href="#" class="pr-1">by John Doe</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1 pr-1">9 comments</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1">Oct. 09, 2013</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-md modal-sm" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-body mb-0 p-0">
+                                                <h2>15 Websites with Beautiful Typography</h2>
+                                                <picture>
+                                                    <source srcset="./webp/news-8-big.webp" type="image/webp"></source>
+                                                    <img class="img-fluid" src="./img/news-8-big.jpg" alt="News Post Pic">
+                                                </picture>
+                                                <div class="caption d-flex justify-content-between">
+                                                    <a href="#">2 comments</a>
+                                                    <a href="#"><time datetime="2013-10-03">Oct. 03, 2013</time></a>
+                                                    <p>by John Doe</p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button"
+                                                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                                    data-dismiss="modal"
+                                                    onclick="location.href='#'">Open</button>
+                                                <button type="button"
+                                                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <picture data-toggle="modal" data-target="#modal8">
+                                            <source srcset="./webp/news-8-big.webp" type="image/webp"></source>
+                                            <img class="card-img-top" src="./img/news-8-big.jpg" alt="News Post Pic">
+                                        </picture>
+                                    </div>
+                                    <div class="card-footer">
+                                        <h3 class="card-title">15 Websites with Beautiful Typography</h3>
+                                        <p>We are continuing to see more an more web designers realize the 
+                                            importance of typography. And with services like Typekit, 
+                                            Google Fonts, and Fontdeck.</p>
+                                        <div class="comments d-flex justify-content-between">
+                                            <a href="#" class="d-block ml-3 mt-1 like"><i class="far fa-heart"></i> 13</a>
+                                            <ul class="news-info d-flex mr-2">
+                                                <li><a href="#" class="pr-1">by John Doe</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1 pr-1">2 comments</a> &#8260; </li>
+                                                <li><a href="#" class="pl-1">Oct. 03, 2013</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -403,113 +484,137 @@
                             </div>
                         </div>
                     </div>
+                    <div class="pagination col-12 d-flex justify-content-between">
+                        <a href="#">Prev</a>
+                        <ul class="d-flex pagination-list align-items-center">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="d-none d-md-block"><a href="#">4</a></li>
+                            <li class="d-none d-md-block"><a href="#">5</a></li>
+                            <li><a href="#">...</a></li>
+                            <li class="d-none d-md-block"><a href="#">19</a></li>
+                            <li><a href="#">20</a></li>
+                        </ul>
+                        <a href="#">Next</a>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <aside class="col-md-4">
                     <div class="search">
                         <form method="POST" action="#">
                             <input type="search" class="search-field" id="search" placeholder="Search...">
+                            <button type="submit" class="search-btn" name="search"><span class="fa fa-search"></span></button>
                         </form>
                     </div>
                     <div class="list categories">
                         <h2>Categories</h2>
-                        <ul class="categories sort">
-                            <li class="nav item"><a href="#"><i class="fas fa-chevron-right"></i>Web Design</a></li>
-                            <li class="nav item"><a href="#"><i class="fas fa-chevron-right"></i>Branding</a></li>
-                            <li class="nav item"><a href="#"><i class="fas fa-chevron-right"></i>Business</a></li>
-                            <li class="nav item"><a href="#"><i class="fas fa-chevron-right"></i>Inspiration</a></li>
-                            <li class="nav item"><a href="#"><i class="fas fa-chevron-right"></i>Marketing</a></li>
-                            <li class="nav item"><a href="#"><i class="fas fa-chevron-right"></i>HTML</a></li>
-                            <li class="nav item"><a href="#"><i class="fas fa-chevron-right"></i>CSS</a></li>
-                            <li class="nav item"><a href="#"><i class="fas fa-chevron-right"></i>News</a></li>
-                            <li class="nav item"><a href="#"><i class="fas fa-chevron-right"></i>Mobile</a></li>
-                            <li class="nav item"><a href="#"><i class="fas fa-chevron-right"></i>Usability</a></li>
+                        <ul class="categories sort row ml-2">
+                            <li class="nav item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>Web Design</a></li>
+                            <li class="nav item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>Branding</a></li>
+                            <li class="nav item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>Business</a></li>
+                            <li class="nav item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>Inspiration</a></li>
+                            <li class="nav item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>Marketing</a></li>
+                            <li class="nav item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>HTML</a></li>
+                            <li class="nav item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>CSS</a></li>
+                            <li class="nav item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>News</a></li>
+                            <li class="nav item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>Mobile</a></li>
+                            <li class="nav item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>Usability</a></li>
                         </ul>
                     </div>
                     <div class="list archive">
                         <h2>Archive</h2>
-                        <ul class="archive sort">
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>November</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>October</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>September</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>August</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>July</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>June</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>May</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>April</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>March</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>February</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>January</a></li>
-                            <li class="sort item"><a href="#"><i class="fas fa-chevron-right"></i>December</a></li>
+                        <ul class="archive sort row ml-2">
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>November (11)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>October (7)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>September (9)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>August (12)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>July (17)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>June (6)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>May (15)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>April (4)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>March (13)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>February (19)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>January (21)</a></li>
+                            <li class="sort item d-flex align-items-center col-12 col-lg-6"><a href="#"><i class="fas fa-chevron-right"></i>December (1)</a></li>
                         </ul>
                     </div>
                     <div class="list popular-news">
                         <h2>Popular News</h2>
                         <ul>
-                            <li class="nitem d-flex">
-                                <picture>
-                                    <source srcset="" type="image/webp">
-                                    <img src="./img/news-1.jpg" alt="News Image 5">
-                                </picture>
-                                <div class="nitem-description">
-                                    <h3>20 Resources for Beginner Designers & Developers</h3>
-                                    <a href="#"><time datatime="Oct. 10, 2013">Oct. 10, 2013</time> <span
-                                            class="far fa-heart"> 7</span></a>
-                                </div>
+                            <li class="nitem">
+                                <a href="#" class="d-flex">
+                                    <picture>
+                                        <source srcset="./webp/news-1.webp" type="image/webp">
+                                        <img src="./img/news-1.jpg" alt="News Image 1">
+                                    </picture>
+                                    <div class="nitem-description">
+                                        <h3>15 Fresh Examples of Clean and Minimal Web Designs</h3>
+                                        <div class="wrapper-like text-right mt-2">
+                                            <time datetime="2013-10-09">Oct. 09, 2013</time> 
+                                            <span class="far fa-heart"> 21</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
-                            <li class="nitem d-flex">
-                                <picture>
-                                    <source srcset="./webp/news-1.webp" type="image/webp">
-                                    <img src="./img/news-1.jpg" alt="News Image 1">
-                                </picture>
-                                <div class="nitem-description">
-                                    <h3>15 Fresh Examples of Clean and Minimal Web Designs</h3>
-                                    <a href="#"><time datatime="Oct. 09, 2013">Oct. 09, 2013</time> <span
-                                            class="far fa-heart"> 21</span></a>
-                                </div>
+                            <li class="nitem">
+                                <a href="#" class="d-flex">
+                                    <picture>
+                                        <source srcset="./webp/news-2.webp" type="image/webp">
+                                        <img src="./img/news-2.jpg" alt="News Image 2">
+                                    </picture>
+                                    <div class="nitem-description">
+                                        <h3>Inspiring Examples of Color in Web Design</h3>
+                                        <div class="wrapper-like text-right mt-3">
+                                            <time datetime="2013-10-01">Oct. 01, 2013</time> 
+                                            <span class="far fa-heart"> 19</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
-                            <li class="nitem d-flex">
-                                <picture>
-                                    <source srcset="./webp/news-2.webp" type="image/webp">
-                                    <img src="./img/news-2.jpg" alt="News Image 2">
-                                </picture>
-                                <div class="nitem-description">
-                                    <h3>Inspiring Examples of Color in Web Design</h3>
-                                    <a href="#"><time datatime="Oct. 10, 2013">Oct. 01, 2013</time> <span
-                                            class="far fa-heart"> 19</span></a>
-                                </div>
+                            <li class="nitem">
+                                <a href="#" class="d-flex">
+                                    <picture>
+                                        <source srcset="./webp/news-3.webp" type="image/webp">
+                                        <img src="./img/news-3.jpg" alt="News Image 3">
+                                    </picture>
+                                    <div class="nitem-description">
+                                        <h3>17 Inspiring Examples of Parallax Scrolling Sites</h3>
+                                        <div class="wrapper-like text-right mt-3">    
+                                            <time datetime="2013-10-12">Oct. 12, 2013</time> 
+                                            <span class="far fa-heart"> 15</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
-                            <li class="nitem d-flex">
-                                <picture>
-                                    <source srcset="./webp/news-3.webp" type="image/webp">
-                                    <img src="./img/news-3.jpg" alt="News Image 3">
-                                </picture>
-                                <div class="nitem-description">
-                                    <h3>17 Inspiring Examples of Parallax Scrolling Sites</h3>
-                                    <a href="#"><time datatime="Oct. 12, 2013">Oct. 12, 2013</time> <span
-                                            class="far fa-heart"> 15</span></a>
-                                </div>
+                            <li class="nitem">
+                                <a href="#" class="d-flex">
+                                    <picture>
+                                        <source srcset="./webp/news-4.webp" type="image/webp">
+                                        <img src="./img/news-4.jpg" alt="News Image 4">
+                                    </picture>
+                                    <div class="nitem-description d-block">
+                                        <h3>15 Websites with Beautiful Typography</h3>
+                                        <div class="wrapper-like text-right mt-3 ml-4">
+                                            <time datetime="2013-10-03">Oct. 03, 2013</time>
+                                            <span class="far fa-heart"> 13</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
-                            <li class="nitem d-flex">
-                                <picture>
-                                    <source srcset="./webp/news-4.webp" type="image/webp">
-                                    <img src="./img/news-4.jpg" alt="News Image 4">
-                                </picture>
-                                <div class="nitem-description">
-                                    <h3>15 Websites with Beautiful Typography</h3>
-                                    <a href="#"><time datatime="Oct. 03, 2013">Oct. 03, 2013</time> <span
-                                            class="far fa-heart"> 13</span></a>
-                                </div>
-                            </li>
-                            <li class="nitem d-flex">
-                                <picture>
-                                    <source srcset="./webp/news-5.webp" type="image/webp">
-                                    <img src="./img/news-5.jpg" alt="News Image 5">
-                                </picture>
-                                <div class="nitem-description">
-                                    <h3>20 Resources for Beginner Designers & Developers</h3>
-                                    <a href="#"><time datatime="Oct. 10, 2013">Oct. 10, 2013</time> <span
-                                            class="far fa-heart"> 7</span></a>
-                                </div>
+                            <li class="nitem">
+                                <a href="#" class="d-flex">
+                                    <picture>
+                                        <source srcset="./webp/news-5.webp" type="image/webp">
+                                        <img src="./img/news-5.jpg" alt="News Image 5">
+                                    </picture>
+                                    <div class="nitem-description">
+                                        <h3>20 Resources for Beginner Designers & Developers</h3>
+                                        <div class="wrapper-like text-right">
+                                            <time datetime="2013-10-10">Oct. 10, 2013</time> 
+                                            <span class="far fa-heart"> 7</span>
+                                        </div>                                           
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -529,184 +634,184 @@
                             <li class="item"><a href="#">Joomla</a></li>
                         </ul>
                     </div>
-                </div>
+                </aside>
             </div>
         </div>
     </section>
     <footer>
-            <div class="container-fluid big-inf">
-                <div class="container">
-                    <div class="col col-lg-4">
-                        <div class="about">
-                            <h2>About Us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                sed diam nonummy nibh euismod tincidunt ut
-                                laoreet dolore magna aliquam erat volutpat. Ut wisi
-                                enim ad minim veniam, quis nostrud exerci tation ullamcorper
-                                suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                            <a href="#" class="btn-learn">Learn More</a>
-                        </div>
-                        <div class="photo-stream">
-                            <h2>Photo Stream</h2>
-                            <ul class="gallery">
-                                <li>
-                                    <a href="./img/g1_1920x1080.jpg" aria-label="Wallpaper 1">
-                                        <picture>
-                                            <source srcset="./webp/g1_1920x1080.webp" type="image/webp">
-                                            <img src="./img/g1_140x67.jpg" alt="Wallpaper 1">
-                                        </picture>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="./img/g2_1920x1080.jpg" aria-label="Wallpaper 2">
-                                        <picture>
-                                            <source srcset="./webp/g2_1920x1080.webp" type="image/webp">
-                                            <img src="./img/g2_140x67.jpg" alt="Wallpaper 2">
-                                        </picture>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="./img/g3_1920x1080.jpg" aria-label="Wallpaper 3">
-                                        <picture>
-                                            <source srcset="./webp/g3_1920x1080.webp" type="image/webp">
-                                            <img src="./img/g3_140x67.jpg" alt="Wallpaper 3">
-                                        </picture>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="./img/g4_1920x1080.jpg" aria-label="Wallpaper 4">
-                                        <picture>
-                                            <source srcset="./webp/g4_1920x1080.webp" type="image/webp">
-                                            <img src="./img/g4_140x67.jpg" alt="Wallpaper 4">
-                                        </picture>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="./img/g5_1920x1080.jpg" aria-label="Wallpaper 5">
-                                        <picture>
-                                            <source srcset="./webp/g5_1920x1080.webp" type="image/webp">
-                                            <img src="./img/g5_140x67.jpg" alt="Wallpaper 5">
-                                        </picture>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="./img/g6_1920x1080.jpg" aria-label="Wallpaper 6">
-                                        <picture>
-                                            <source srcset="./webp/g6_1920x1080.webp" type="image/webp">
-                                            <img src="./img/g6_140x67.jpg" alt="Wallpaper 6">
-                                        </picture>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+        <div class="container-fluid big-inf">
+            <div class="container">
+                <div class="col col-lg-4">
+                    <div class="about">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut
+                            laoreet dolore magna aliquam erat volutpat. Ut wisi
+                            enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                            suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn-learn">Learn More</a>
                     </div>
-                    <div class="col col-md-12 col-lg-4">
-                        <h2>Latest tweets</h2>
-                        <ul class="tweets">
+                    <div class="photo-stream">
+                        <h2>Photo Stream</h2>
+                        <ul class="gallery">
                             <li>
-                                <p>Check Out Dtbaker's <a href="@Arduino">@Arduino</a> Sales
-                                    Notification<span>#System</span></p>
-                                <a href="http://t.co/WBFKIWHJ">http://t.co/WBFKIWHJ</a>
-                                <p class="time">3 days ago</p>
+                                <a href="./img/g1_1920x1080.jpg" aria-label="Wallpaper 1">
+                                    <picture>
+                                        <source srcset="./webp/g1_1920x1080.webp" type="image/webp">
+                                        <img src="./img/g1_140x67.jpg" alt="Wallpaper 1">
+                                    </picture>
+                                </a>
                             </li>
                             <li>
-                                <p>Community Superstar Winner – <span>#OrganicBeeMedia</span></p>
-                                <a href="http://t.co/2Fs1nnMj">http://t.co/2Fs1nnMj</a>
-                                <p class="time">3 days ago</p>
+                                <a href="./img/g2_1920x1080.jpg" aria-label="Wallpaper 2">
+                                    <picture>
+                                        <source srcset="./webp/g2_1920x1080.webp" type="image/webp">
+                                        <img src="./img/g2_140x67.jpg" alt="Wallpaper 2">
+                                    </picture>
+                                </a>
                             </li>
                             <li>
-                                <p>Clean <span>#Websites</span> Designs for Your <span>#Inspiration</span></p>
-                                <a href="http://t.co/SnRKu3HJ">http://t.co/SnRKu3HJ</a>
-                                <p class="time">5 days ago</p>
+                                <a href="./img/g3_1920x1080.jpg" aria-label="Wallpaper 3">
+                                    <picture>
+                                        <source srcset="./webp/g3_1920x1080.webp" type="image/webp">
+                                        <img src="./img/g3_140x67.jpg" alt="Wallpaper 3">
+                                    </picture>
+                                </a>
                             </li>
                             <li>
-                                <p>Cute Online <span>#Shops</span></p>
-                                <a href="http://t.co/1PoQN3bJ">http://t.co/1PoQN3bJ</a>
-                                <p class="time">6 days ago</p>
+                                <a href="./img/g4_1920x1080.jpg" aria-label="Wallpaper 4">
+                                    <picture>
+                                        <source srcset="./webp/g4_1920x1080.webp" type="image/webp">
+                                        <img src="./img/g4_140x67.jpg" alt="Wallpaper 4">
+                                    </picture>
+                                </a>
                             </li>
                             <li>
-                                <p>Download 40 vector <span>#icons</span> package for <span>#FREE</span></p>
-                                <a href="http://t.co/2Fp5GLqn">http://t.co/2Fp5GLqn</a>
-                                <p class="time">6 days ago</p>
+                                <a href="./img/g5_1920x1080.jpg" aria-label="Wallpaper 5">
+                                    <picture>
+                                        <source srcset="./webp/g5_1920x1080.webp" type="image/webp">
+                                        <img src="./img/g5_140x67.jpg" alt="Wallpaper 5">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./img/g6_1920x1080.jpg" aria-label="Wallpaper 6">
+                                    <picture>
+                                        <source srcset="./webp/g6_1920x1080.webp" type="image/webp">
+                                        <img src="./img/g6_140x67.jpg" alt="Wallpaper 6">
+                                    </picture>
+                                </a>
                             </li>
                         </ul>
-                        <div class="social">
-                            <h3>Social Connecting</h3>
-                            <ul class="social-networks">
-                                <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#" aria-label="Google+"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#" aria-label="Tumblr"><i class="fab fa-tumblr"></i></a></li>
-                                <li><a href="#" aria-label="Linked In"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#" aria-label="Youtube"><i class="fab fa-youtube-square"></i></a></li>
-                                <li><a href="#" aria-label="Blog"><i class="fab fa-blogger-b"></i></a></li>
-                                <li><a href="#" aria-label="RSS"><i class="fas fa-rss"></i></a></li>
-                                <li><a href="#" aria-label="Dribble"><i class="fab fa-dribbble"></i></a></li>
-                            </ul>
-                        </div>
                     </div>
-                    <div class="col col-md-12 col-lg-3">
-                        <h2>Contact Us</h2>
-                        <address>
-                            <ul>
-                                <li>
-                                    <i class="fas ml-1 fa-li fa-map-marker-alt"></i>
-                                    <p>Address: 12569 Saint Patrick des Prés, 85000 Paris, France</p>
-                                </li>
-                                <li>
-                                    <i class="fab ml-1 fa-li fa-whatsapp"></i>
-                                    <span>Phone:</Span>
-                                    <a href="tel:+380458454578">+38 045 845-45-78</a>
-                                    <a href="tel:+380458454579">+38 045 845-45-79</a>
-                                </li>
-                                <li>
-                                    <i class="fas ml-1 fa-li fa-envelope"></i>
-                                    <a href="mailto:freeforwebdesign@gmail.com">E-mail: freeforwebdesign@gmail.com</a>
-                                </li>
-                            </ul>
-                        </address>
-                        <div class="follow-us mb-2" id="templateContainer">
-                            <h2>Follow Us</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <form action="https://dmail1.us5.list-manage.com/subscribe/post" method="POST" class="follow">
-                                <input type="hidden" name="u" value="36539e7f0690ff78e9535b261">
-                                <input type="hidden" name="id" value="b2458a7e39">
-                                <input type="hidden" name="orig-lang" value="1">
-                                <div id="mergeTable" class="mergeTable dojoDndSource dojoDndTarget dojoDndContainer">
-                                    <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0"
-                                        title="Click to select field then edit settings on right. Drag to reorder fields.">
-                                        <label for="MERGE0"><span class="req asterisk"></span></label>
-                                        <div class="field-group">
-                                            <input type="email" autocapitalize="off" name="MERGE0" id="MERGE0" size="25"
-                                                value="" class="email">
-                                            <input type="submit" class="formEmailButton" name="submit" id="image-button"
-                                                value="&#9993;">
-                                        </div>
+                </div>
+                <div class="col col-md-12 col-lg-4">
+                    <h2>Latest tweets</h2>
+                    <ul class="tweets">
+                        <li>
+                            <p>Check Out Dtbaker's <a href="@Arduino">@Arduino</a> Sales
+                                Notification<span>#System</span></p>
+                            <a href="http://t.co/WBFKIWHJ">http://t.co/WBFKIWHJ</a>
+                            <p class="time">3 days ago</p>
+                        </li>
+                        <li>
+                            <p>Community Superstar Winner – <span>#OrganicBeeMedia</span></p>
+                            <a href="http://t.co/2Fs1nnMj">http://t.co/2Fs1nnMj</a>
+                            <p class="time">3 days ago</p>
+                        </li>
+                        <li>
+                            <p>Clean <span>#Websites</span> Designs for Your <span>#Inspiration</span></p>
+                            <a href="http://t.co/SnRKu3HJ">http://t.co/SnRKu3HJ</a>
+                            <p class="time">5 days ago</p>
+                        </li>
+                        <li>
+                            <p>Cute Online <span>#Shops</span></p>
+                            <a href="http://t.co/1PoQN3bJ">http://t.co/1PoQN3bJ</a>
+                            <p class="time">6 days ago</p>
+                        </li>
+                        <li>
+                            <p>Download 40 vector <span>#icons</span> package for <span>#FREE</span></p>
+                            <a href="http://t.co/2Fp5GLqn">http://t.co/2Fp5GLqn</a>
+                            <p class="time">6 days ago</p>
+                        </li>
+                    </ul>
+                    <div class="social">
+                        <h3>Social Connecting</h3>
+                        <ul class="social-networks">
+                            <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" aria-label="Google+"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#" aria-label="Tumblr"><i class="fab fa-tumblr"></i></a></li>
+                            <li><a href="#" aria-label="Linked In"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" aria-label="Youtube"><i class="fab fa-youtube-square"></i></a></li>
+                            <li><a href="#" aria-label="Blog"><i class="fab fa-blogger-b"></i></a></li>
+                            <li><a href="#" aria-label="RSS"><i class="fas fa-rss"></i></a></li>
+                            <li><a href="#" aria-label="Dribble"><i class="fab fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-md-12 col-lg-3">
+                    <h2>Contact Us</h2>
+                    <address>
+                        <ul>
+                            <li>
+                                <i class="fas ml-1 fa-li fa-map-marker-alt"></i>
+                                <p>Address: 12569 Saint Patrick des Prés, 85000 Paris, France</p>
+                            </li>
+                            <li>
+                                <i class="fab ml-1 fa-li fa-whatsapp"></i>
+                                <span>Phone:</Span>
+                                <a href="tel:+380458454578">+38 045 845-45-78</a>
+                                <a href="tel:+380458454579">+38 045 845-45-79</a>
+                            </li>
+                            <li>
+                                <i class="fas ml-1 fa-li fa-envelope"></i>
+                                <a href="mailto:freeforwebdesign@gmail.com">E-mail: freeforwebdesign@gmail.com</a>
+                            </li>
+                        </ul>
+                    </address>
+                    <div class="follow-us mb-2" id="templateContainer">
+                        <h2>Follow Us</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <form action="https://dmail1.us5.list-manage.com/subscribe/post" method="POST" class="follow">
+                            <input type="hidden" name="u" value="36539e7f0690ff78e9535b261">
+                            <input type="hidden" name="id" value="b2458a7e39">
+                            <input type="hidden" name="orig-lang" value="1">
+                            <div id="mergeTable" class="mergeTable dojoDndSource dojoDndTarget dojoDndContainer">
+                                <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0"
+                                    title="Click to select field then edit settings on right. Drag to reorder fields.">
+                                    <label for="MERGE0"><span class="req asterisk"></span></label>
+                                    <div class="field-group">
+                                        <input type="email" autocapitalize="off" name="MERGE0" id="MERGE0" size="25"
+                                            value="" class="email">
+                                        <input type="submit" class="formEmailButton" name="submit" id="image-button"
+                                            value="&#9993;">
                                     </div>
                                 </div>
-                            </form>
-                        </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid black">
-                <div class="container black-row">
-                    <div class="copyright">
-                        <p>&#169; Copyright 2013 - FreeForWebDesign.com - All Rights Reserved</p>
-                    </div>
-                    <div class="footer-menu-box">
-                        <nav class="footer-nav">
-                            <ul class="footer-menu flex-wrap">
-                                <li class="nav-item"><a href="index.html">Home</a></li>
-                                <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
-                                <li class="nav-item"><a href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a href="#">About Us</a></li>
-                                <li class="nav-item"><a href="#">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+        </div>
+        <div class="container-fluid black">
+            <div class="container black-row">
+                <div class="copyright">
+                    <p>&#169; Copyright 2013 - FreeForWebDesign.com - All Rights Reserved</p>
+                </div>
+                <div class="footer-menu-box">
+                    <nav class="footer-nav">
+                        <ul class="footer-menu flex-wrap">
+                            <li class="nav-item"><a href="index.html">Home</a></li>
+                            <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+                            <li class="nav-item"><a href="blog.html">Blog</a></li>
+                            <li class="nav-item"><a href="about.html">About Us</a></li>
+                            <li class="nav-item"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"
