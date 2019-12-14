@@ -1,0 +1,107 @@
+@import url(../css/fonts.css);
+@import variables.sass
+@import footer.sass
+@import media.sass
+
+body
+    font-family: $main-font
+.container
+    max-width: 1400px
+.main-menu
+    flex-grow: .2
+    justify-content: space-between
+    .nav-item
+        text-align: center
+        a
+            font-family: $menu-font
+            text-transform: uppercase
+            padding: 27px 6px
+            color: $black
+            &:hover
+                color: $black
+                background-color: $yellow
+                text-decoration: none
+    .active-bg
+        background-color: $yellow
+#title
+    padding-top: 20px
+    padding-bottom: 20px
+    position: relative
+    background: url(../img/slider_bg.png)
+    margin-bottom: 50px
+    .title-head
+        display: inline-block
+        padding: 17px 95px 17px 17px
+        font-size: 35px
+        color: $yellow
+        background-color: $gray
+        text-transform: uppercase
+        h2
+            margin-bottom: 0px
+#team-description
+    padding-bottom: 60px
+    h2
+        font-size: 30px
+        text-transform: uppercase
+        margin-bottom: 23px
+    h3
+        font-size: 15px
+        font-weight: 900
+        margin-bottom: 20px
+    p
+        font-size: 15px
+.skillbox
+        margin: 0 auto
+        ul
+            width: 80%
+.percent
+    width: 47px
+    height: 37px
+    background-color: $black
+    color: $yellow
+    text-align: center
+    margin: 0 2px 5px 0
+    padding-top: 6px
+    font-size: 17px
+.uncolored
+    position: relative
+    display: block
+    width: 80%
+    height: 37px
+    background-color: $light-gray
+.colored
+    display: inline-block
+    position: absolute
+    height: 37px
+    padding: 6px 0 0 10px
+    text-transform: uppercase
+    background-color: $yellow
+.head-block
+    margin: 0 auto
+    padding: 5px  15px
+    max-width: 160px
+    background-color: $light-gray
+    color: $yellow
+    font-size: 18px
+    text-transform: uppercase
+    text-align: center
+    margin-bottom: 30px
+.team
+    margin-top: 44px
+    li
+        margin: 0 100px 65px 40px
+    img
+        width: 195px
+        height: 195px
+        border-radius: 50%
+        border: solid 3px $yellow
+        object-fit: cover
+        margin-bottom: 8px
+    h3
+        max-width: 200px
+        background-color: $light-gray
+        color: $yellow
+        font-size: 16px
+        padding: 3px 0
+        text-transform: uppercase
+        text-align: center
