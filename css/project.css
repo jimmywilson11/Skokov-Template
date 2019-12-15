@@ -413,36 +413,6 @@ body {
   max-width: 1400px;
 }
 
-.main-menu {
-  -webkit-box-flex: .2;
-      -ms-flex-positive: .2;
-          flex-grow: .2;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.main-menu .nav-item {
-  text-align: center;
-}
-
-.main-menu .nav-item a {
-  font-family: Code Light, sans-serif;
-  text-transform: uppercase;
-  padding: 27px 6px;
-  color: #000;
-}
-
-.main-menu .nav-item a:hover {
-  color: #000;
-  background-color: #FFEA00;
-  text-decoration: none;
-}
-
-.main-menu .active-bg {
-  background-color: #FFEA00;
-}
-
 #title {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -655,7 +625,7 @@ a:hover > .overlay {
   font-size: 16px;
   line-height: 20px;
   color: #FFF;
-  margin: 0 0 4% 0;
+  margin: 0 0 8px 0;
 }
 
 .nitem a time {
