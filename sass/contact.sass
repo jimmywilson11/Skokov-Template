@@ -1,0 +1,87 @@
+@import url(../css/fonts.css)
+@import variables.sass
+@import footer.sass
+@import media.sass
+
+body
+    font-family: $main-font
+a
+    transition: .6s all ease
+.container
+    max-width: 1400px
+#title
+    padding-top: 20px
+    padding-bottom: 20px
+    position: relative
+    background: url(../img/slider_bg.png)
+    margin-bottom: 50px
+    .title-head
+        display: inline-block
+        padding: 5px 75px 5px 5px
+        font-size: 35px
+        color: $yellow
+        background-color: $gray
+        text-transform: uppercase
+        h2
+            margin-bottom: 0px
+#map
+    margin-bottom: 56px
+#feedback
+    h2
+        display: inline
+        text-transform: uppercase
+        font-size: 18px
+        background-color: $light-gray
+        color: $yellow
+        padding: 8px 11px        
+    address
+        margin-top: 24px
+        padding: 5px 0
+        font-style: normal
+        font-size: 13px
+        margin: 5px 
+        li
+            padding-top: 8px
+            margin: 10px 8px
+            i
+                padding: 6px
+                width: 30px
+                height: 30px
+                background-color: $black
+                color: $white
+            a
+                font-size: 13px
+                text-decoration: none
+                color: $black
+                &:hover
+                    color: $yellow
+            p
+                font-size: 13px
+                margin-bottom: 0
+            span
+                font-size: 13px
+                color: $black
+    
+    input
+        padding: 15px
+        border-style: none
+        background-color: $dark-white
+    textarea
+        width: 100%
+        resize: none
+        margin: 15px 0
+        background-color: $dark-white
+        border-style: none
+        padding: 17px
+    .send-btn
+        padding: 11px
+        background-color: $black
+        color: $white
+        border-style: none
+        border-bottom: 2px solid transparent
+        max-width: 160px
+        font-size: 15px
+        &:hover
+            color: $yellow
+            border-bottom: 2px solid $yellow
+
