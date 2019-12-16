@@ -105,49 +105,55 @@
             <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                 euismod tincidunt ut laoreet dolore
                 magna aliquam erat volutpat.</p>
-            <div class="skillbox justify-content-center">
-                <ul class="row">
+            <div class="skillbox">
+                <ul class="row m-auto">
                     <li class="skill d-flex col-12 col-lg-6">
                         <div class="percent">90%</div>
-                        <div class="uncolored">
-                            <div class="colored w-90">Photoshop</div>
-                        </div>
-                    </li>
-                    <li class="skill d-flex col-12 col-lg-6">
-                        <div class="percent">87%</div>
-                        <div class="uncolored w-100">
-                            <div class="colored w-70">HTML/CSS</div>
-                        </div>
-                    </li>
-                    <li class="skill d-flex col-12 col-lg-6">
-                        <div class="percent">70%</div>
-                        <div class="uncolored w-100">
-                            <div class="colored w-70">wordpress</div>
-                        </div>   
-                    </li>
-                    <li class="skill d-flex col-12 col-lg-6">
-                        <div class="percent">75%</div>
-                        <div class="uncolored w-100">
-                            <div class="colored w-70">javascript</div>
+                        <div class="uncolored d-block">
+                            <div class="colored c1 d-block">Photoshop</div>
                         </div>
                     </li>
                     <li class="skill d-flex col-12 col-lg-6">
                         <div class="percent">80%</div>
-                        <div class="uncolored w-100">
-                            <div class="colored w-70">illustrator</div>
-                        </div>
+                        <div class="uncolored d-block">
+                            <div class="colored c5 d-block">illustrator</div>
+                         </div>
+                    </li>
+                    <li class="skill d-flex col-12 col-lg-6">
+                        <div class="percent">87%</div>
+                        <div class="uncolored d-block">
+                            <div class="colored c2 d-block">HTML/CSS</div>
+                        </div>   
                     </li>
                     <li class="skill d-flex col-12 col-lg-6">
                         <div class="percent">76%</div>
-                        <div class="uncolored w-100">
-                            <div class="colored w-70">PHP</div>
+                        <div class="uncolored d-block">
+                            <div class="colored c6 d-block">PHP</div>
                         </div>
                     </li>
                     <li class="skill d-flex col-12 col-lg-6">
-                        <div class="percent">65%</div>Joomla
+                        <div class="percent">80%</div>
+                        <div class="uncolored d-block">
+                            <div class="colored c3 d-block">Wordpress</div>
+                        </div>
                     </li>
                     <li class="skill d-flex col-12 col-lg-6">
-                        <div class="percent">85%</div>MySQL
+                        <div class="percent">65%</div>
+                        <div class="uncolored d-block">
+                            <div class="colored c7 d-block">Joomla</div>
+                        </div>
+                    </li>
+                    <li class="skill d-flex col-12 col-lg-6">
+                        <div class="percent">75%</div>
+                        <div class="uncolored d-block">
+                            <div class="colored c4 d-block">javascript</div>
+                        </div>
+                    </li>
+                    <li class="skill d-flex col-12 col-lg-6">
+                        <div class="percent">85%</div>
+                        <div class="uncolored d-block">
+                            <div class="colored c8 d-block">MySQL</div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -189,10 +195,11 @@
                     <h3>CMS Master</h3>
                 </li>
                 <li>
-                    <a href="">
-                        <img src="./img/av.jpg" alt="New Mate">
-                        <h3>Send CV</h3>
-                    </a>
+                    <form class="d-flex" action="#" method="post" enctype="multipart/form-data">
+                        <label for="file"><img src="./img/av.jpg" alt=""></label>
+                        <input class="addfile" type="file" id="file" name="file" multiple>    
+                    </form>
+                    <input class="send-cv" type="submit" value="Send CV"></input>
                 </li>
             </ul>
         </div>
