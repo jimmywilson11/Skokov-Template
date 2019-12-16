@@ -1,4 +1,19 @@
 @import url(../css/fonts.css);
+.navbar-nav .nav-item {
+  margin: 10px;
+}
+
+.navbar-nav .nav-item a {
+  font-size: 16px;
+  text-decoration: none;
+  padding: 21px 8px;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: #FFEA00;
+}
+
 .big-inf {
   padding-top: 30px;
   background-color: #424146;

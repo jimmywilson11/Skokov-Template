@@ -1,4 +1,19 @@
 @import url(../css/fonts.css);
+.navbar-nav .nav-item {
+  margin: 10px;
+}
+
+.navbar-nav .nav-item a {
+  font-size: 16px;
+  text-decoration: none;
+  padding: 21px 8px;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: #FFEA00;
+}
+
 .big-inf {
   padding-top: 30px;
   background-color: #424146;
@@ -428,7 +443,7 @@ a {
 
 #title .title-head {
   display: inline-block;
-  padding: 5px 75px 5px 5px;
+  padding: 17px 95px 17px 17px;
   font-size: 35px;
   color: #FFEA00;
   background-color: #414146;
@@ -450,47 +465,6 @@ a {
   background-color: #424146;
   color: #FFEA00;
   padding: 8px 11px;
-}
-
-#feedback address {
-  margin-top: 24px;
-  padding: 5px 0;
-  font-style: normal;
-  font-size: 13px;
-  margin: 5px;
-}
-
-#feedback address li {
-  padding-top: 8px;
-  margin: 10px 8px;
-}
-
-#feedback address li i {
-  padding: 6px;
-  width: 30px;
-  height: 30px;
-  background-color: #000;
-  color: #FFF;
-}
-
-#feedback address li a {
-  font-size: 13px;
-  text-decoration: none;
-  color: #000;
-}
-
-#feedback address li a:hover {
-  color: #FFEA00;
-}
-
-#feedback address li p {
-  font-size: 13px;
-  margin-bottom: 0;
-}
-
-#feedback address li span {
-  font-size: 13px;
-  color: #000;
 }
 
 #feedback input {
@@ -520,5 +494,58 @@ a {
 
 #feedback .send-btn:hover {
   color: #FFEA00;
+  border-bottom: 2px solid #FFEA00;
+}
+
+aside {
+  margin-bottom: 200px;
+}
+
+aside .contacts {
+  position: absolute;
+  left: 7%;
+  margin-top: 24px;
+  padding: 5px 0;
+  font-style: normal;
+  font-size: 13px;
+  margin: 5px;
+}
+
+aside .contacts li {
+  padding-top: 8px;
+  margin: 15px;
+}
+
+aside .contacts li i {
+  padding: 6px;
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  color: #FFF;
+}
+
+aside .contacts li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #000;
+}
+
+aside .contacts li a:hover {
+  color: #FFEA00;
+}
+
+aside .contacts li p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+aside .contacts li span {
+  font-size: 13px;
+  color: #000;
+}
+
+aside .contacts li .contactmail:hover {
+  padding: 3px 5px;
+  background-color: #424146;
   border-bottom: 2px solid #FFEA00;
 }
