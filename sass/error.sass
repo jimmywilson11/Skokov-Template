@@ -1,0 +1,48 @@
+@import url(../css/fonts.css)
+@import variables.sass
+@import header.sass
+@import footer.sass
+@import media.sass
+
+body
+    font-family: $main-font
+.container
+    max-width: 1400px
+#title
+    padding-top: 20px
+    padding-bottom: 20px
+    position: relative
+    background: url(../img/slider_bg.png)
+    margin-bottom: 50px
+    .title-head
+        display: inline-block
+        padding: 12px 56px 12px 12px
+        font-size: 35px
+        color: $yellow
+        background-color: $gray
+        text-transform: uppercase
+        h2
+            margin-bottom: 0px
+#main
+    text-align: center
+    margin-bottom: 110px
+    h2
+        font-size: 200px   
+    span
+        font-size: 90px
+        background-color: $light-gray
+        color: $yellow   
+    a
+        background-color: $black
+        color: $white
+        padding: 7px 10px
+        font-size: 15px
+        text-decoration: none
+        border-bottom: 2px solid transparent
+        &:hover
+            color: $yellow
+            border-bottom: 2px solid $yellow
+    p
+        padding: 6px 8px
+        background-color: $yellow
+        margin: 0 10px
