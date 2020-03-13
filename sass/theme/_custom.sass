@@ -1,0 +1,367 @@
+@import _theme_variables.scss
+
+body
+    font-family: $main-font 
+.container
+    max-width: 1400px
+
+#title
+    padding-top: 20px
+    padding-bottom: 20px
+    position: relative
+    background: url(../images/slider_bg.png)
+    background-repeat: norepeat
+    background-position: center center
+    background-size: cover
+    margin-bottom: 50px
+    .title-head
+        display: inline-block 
+        font-size: 2.1875rem
+        color: $yellow
+        background-color: $gray
+        text-transform: uppercase
+        padding: 5px 45px 5px 5px
+#slider
+    padding-top: 20px
+    position: relative
+    background: url(../images/slider_bg.png)
+    background-repeat: norepeat
+    background-position: center center
+    background-size: cover
+    .arrow 
+        position: absolute
+        top: calc(50% - 50px)
+        height: 10%
+        width: 2%
+        background-color: $black
+        opacity: 1
+        span
+            color: $white
+        &:hover 
+            opacity: 0.8
+    .carousel-item 
+        .description 
+            margin-top: 60px
+            .description-heading
+                display: inline-block
+                font-size: 4.375rem
+                background-color: $yellow
+                padding: 5px 10px
+                margin-bottom: 5px
+                &:nth-last-child(2)
+                    margin-bottom: 5px
+            .description-text
+                display: inline-block
+                background-color: $light-gray
+                color: $white
+                padding: 3px 5px
+                font-size: 24px
+                margin-bottom: 5px
+                &:nth-last-child(2)
+                    margin-bottom: 5px
+            .btn-order
+                display: block
+                padding: 5px 40px
+                margin-bottom: 25px
+                text-decoration: none
+                text-align: center
+                font: 24px $main-font
+                background-color: $black
+                color: $white
+                border-bottom: 3px solid transparent
+                &:hover
+                    border-bottom: 3px solid $yellow
+                    text-decoration: none
+                    color: $yellow
+        .faces
+            position: relative
+            padding-bottom: 35px
+            margin-left: -30px    
+            img
+                margin: 20px auto
+                margin: 0 auto
+    .indicators
+        margin: 25px 0 
+        li
+            width: 10px
+            height: 10px
+            background-color: $gray
+            border: 3px solid $black
+        .active
+            background-color: $yellow
+#content 
+    padding: 30px
+    .content-description
+        .design-list    
+            padding-top: 25px
+            .design-item   
+                width: 250px
+                height: auto
+                position: relative
+                margin-bottom: 30px
+                &:hover > .card-overlay
+                    display: block
+                    transition: all 0.5s ease
+                .design-card
+                    position: relative
+                    background-color: $yellow
+                    padding-top: 20px
+                    color: $black
+                    img
+                        max-height: 88px
+                        margin-bottom: 10px
+                    h3 
+                        color: $black
+                        text-align: center
+                        text-transform: uppercase
+                        font-size: 20px
+                        font: $menu-font
+                        margin-bottom: 21px  
+                    p
+                        font-size: 13px
+                        text-align: center
+                        color: $white
+                        background-color: $light-gray
+            .card-overlay
+                position: absolute
+                top: 0 
+                display: none
+                opacity: 1
+                &::after
+                    content: ''
+                    position: absolute
+                    left: 80%
+                    top: 10px
+                    bottom: 31%
+                    border: 15px solid transparent
+                    border-bottom: 15px solid $gray
+                h3
+                    font: $menu-font
+                    font-size: 17px
+                    color: $white
+                    background-color: $light-gray
+                    padding: 10px
+                    position: relative
+                .overlay-text
+                    padding: 20px 0
+                    display: block
+                    font-size: 10px
+                    color: $white
+                span
+                    margin-right: 15px
+                    font-size: 10px
+                    color: $yellow
+                p
+                    display: none
+#our-works
+    padding: 50px 0
+    .item 
+        padding: 0
+        margin: 3px
+        max-width: 35%
+        img
+            max-width: 100%
+#our-clients
+    #carousel-controls
+        .owl-prew
+            position: absolute
+            background-color: $black
+            width: 1%
+            height: 8%
+            opacity: 1
+            left: 0
+            margin-top: -85px
+            span
+                margin-top: 160%
+                margin-left: 35%
+                color: $white
+        .owl-next
+            position: absolute
+            background-color: $black
+            width: 1%
+            height: 8%
+            opacity: 1
+            right: 0
+            margin-top: -85px
+            span
+                margin-top: 160%
+                margin-left: 35%
+                color: $white
+#portfolio-gallery
+    font-size: 1.5rem
+    h2
+        font-size: 1.875rem
+        padding: 7px 0  
+    .menu-navigation
+        a
+            font-size: 24px
+            text-decoration: none
+            font-family: $main-font
+            padding: 10px 14px
+            color: $black
+            &:hover
+                background-color: $yellow
+                color: $black
+    .active-bg       
+        background-color: $yellow     
+#team-description
+    h2
+        font-size: 1.875rem
+        text-transform: uppercase
+        margin-bottom: 1rem
+    p
+        font-size: 0.9375rem
+        text-align: justify
+        text-indent: 0.9375rem
+#our-skills
+    .skills
+        width: 80%
+    .percent
+        width: 47px
+        height: 37px
+        background-color: $black
+        color: $yellow
+        text-align: center
+        margin: 0 2px 5px 0
+        padding-top: 6px
+        font-size: 17px
+    .uncolored
+        position: relative
+        height: 37px
+        width: 100% 
+        color: $light-gray
+        background-color: $light-gray
+        overflow: hidden
+    .colored
+        position: absolute
+        height: 37px
+        background-color: $yellow
+        padding: 6px 0 0 10px
+        text-transform: uppercase
+#our-team
+    .team
+        margin-top: 20px
+        justify-content: center
+        li
+            margin: 0 50px 30px 50px
+        img
+            width: 195px
+            height: 195px
+            border-radius: 50%
+            border: solid 3px $yellow
+            object-fit: cover
+            margin-bottom: 8px
+        h3
+            max-width: 200px
+            background-color: $light-gray
+            color: $yellow
+            font-weight: 600
+            font-size: 1rem
+            padding: 3px 0
+            text-transform: uppercase
+            text-align: center
+        .addfile
+            width: 0.1px
+            height: 0.1px
+            opacity: 0
+            overflow: hidden
+            position: absolute
+            z-index: -1
+        label
+            margin-bottom: 0
+            &:hover
+                cursor: pointer
+                opacity: 0.6
+        .send-cv
+            width: 200px
+            font-weight: 600
+            font-size: 1rem
+            text-transform: uppercase
+            background-color: $light-gray
+            color: $yellow
+            border-style: none
+            border-bottom: 2px solid transparent
+            &:hover
+                color: $light-gray
+                background-color: $yellow
+                transition: 0.3s all linear
+                border-bottom: 2px solid $light-gray
+#feedback
+    h2
+        display: inline
+        text-transform: uppercase
+        font-size: 1.125rem
+        background-color: $light-gray
+        color: $yellow
+        padding: 8px 11px
+    input
+        padding: 15px
+        border-style: none
+        background-color: $dark-white
+    textarea
+        width: 100%
+        resize: none
+        margin: 15px 0
+        background-color: $dark-white
+        border-style: none
+        padding: 17px
+    .send-btn
+        padding: 11px
+        background-color: $black
+        color: $white
+        border-style: none
+        border-bottom: 2px solid transparent
+        max-width: 160px
+        font-size: 15px
+        &:hover
+            color: $yellow
+            border-bottom: 2px solid $yellow
+address
+    a
+        text-decoration: none
+        color: $black
+    .icon
+        color: #FFF
+        margin-right: 10px
+        width: 30px
+        height: 30px
+        padding: 5px 0 0 8px
+        background-color: $black
+    .contact
+        &:hover
+            color: $white
+            background-color: $black
+            border-bottom: 2px solid $yellow        
+
+.widget
+    background-color: $light-gray
+    margin-bottom: 10px
+    h2
+        color: $yellow
+        text-transform: uppercase
+        font-size: 1.25rem
+        padding: 27px
+        margin: 0
+    .widget_tag_cloud
+        .tagcloud
+            .tag-cloud-link
+                font-size: 1.125rem
+                color: $white
+    .widget_search
+        background-color: $light-gray
+        margin-bottom: 15px
+        padding: 23px 50px
+        .form-control
+            background-color: $dark-white
+            border-style: none
+            position: relative
+            font-size: 1.125rem
+            padding-left: 15px
+        .input-group-append
+            .btn-primary
+                left: -10px
+                background-color: $black
+                &:hover
+                    color: $yellow
+                    border-bottom: 2px solid $yellow            
+    

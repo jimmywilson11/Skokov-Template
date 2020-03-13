@@ -1,0 +1,125 @@
+@import _theme_variables.scss
+
+h2
+    font-size: 1.125rem
+    font-weight: 700
+    padding: 10px 0 0 0
+.big-inf
+    padding-top: 30px
+    background-color: $light-gray
+    display: flex
+    .container
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        color: $white       
+        .textwidget   
+            p
+                font-size: 0.8125rem
+                padding: 10px 0
+        a
+            color: $white                 
+        .btn-learn
+            margin-top: 25px
+            display: block
+            background-color: $black
+            width: 122px
+            font-family: $main-font
+            text-decoration: none
+            text-align: center
+            padding: 10px
+            margin-bottom: 15px
+            border-bottom: 2px solid transparent
+            outline: none
+            &:hover
+                border-bottom: 2px solid $yellow
+                outline: none                   
+        .gallery
+            display: flex
+            flex-wrap: wrap        
+            img
+                max-width: 140px
+                max-height: 67px
+                margin: 2px
+                object-fit: cover
+        .social-list
+            li
+                margin: 0 3px
+            a
+                padding: 5px 10px
+                background-color: $black
+        .tweets    
+            .ctf-tweets
+                padding: 10px 0
+                .ctf-tweet-actions
+                    display: none
+                .ctf-item
+                    padding: 0 5px !important
+                    border-bottom: none 
+                    margin-left: 30px !important
+                    &::before
+                        content: ''
+                        display: block
+                        position: absolute
+                        height: 30px 
+                        width: 30px
+                        margin-top: 5px
+                        background-image: url('../src/twitter-brands.svg')
+                        background-size: contain
+                        background-repeat: no-repeat
+                        left: 0                    
+                    .ctf-tweet-date
+                        font-size: 8px
+        address
+            .icon
+                margin-right: 10px
+                width: 30px
+                height: 30px
+                padding: 5px 0 0 8px
+                background-color: $black
+            .contact
+                &:hover
+                    background-color: $black
+                    border-bottom: 2px solid $yellow        
+        .email
+            width: 50%           
+            border: none
+            background-color: $gray
+            border-bottom: 2px solid $yellow
+        .formEmailButton
+            width: 35px
+            height: 35px
+            background-color: $black
+            color: $white
+            text-align: center
+            border-style: none
+            &:hover
+                color: $yellow    
+.black
+    background-color: $black
+    .black-row
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        p
+            font-size: 0.875rem
+            color: $white
+    .copyright
+        text-align: center
+        padding-bottom: 20px
+    .footer-menu-box
+        width: 60%
+    .footer-menu
+        display: flex
+        justify-content: space-between      
+        a
+            color: $white
+            font-family: $menu-font
+            text-decoration: none
+            text-transform: uppercase
+            padding: 20px 6px
+            margin: 0 10px
+            &:hover
+                color: $black
+                background-color: $yellow
+                text-decoration: none         
